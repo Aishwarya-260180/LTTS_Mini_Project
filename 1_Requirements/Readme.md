@@ -4,10 +4,14 @@
  * This topic was chosen because it gives me an opportunity to implement efficient data structures and provides me flexibilty to understand multiple C programming concepts.
 
 ## Research
-### Patient Management Software System Features and Benefits
-A health care providers main aim is, caring for patients and the buildup of everyday tasks like paperwork, scheduling and billing can get in the way of that. What is patient management software anyway? A patient management system is also known as clinic management software, patient manager software, medical patient software or medical practice management software (MPM). It refers to a number of efficient automated systems designed for tracking patient information, diagnoses, prescriptions, interactions and encounters within healthcare organizations like medical clinics or hospitals.
-
-Some of these software applications focus on general patient management while others address specific processes such as inpatient tracking or blood testing. What they all have in common is that they make your job as a care provider smoother and more manageable.
+### Searching and Sorting System Features and Benefits
+A searching and sorting systems main aim is, to provide users with different techniques of sorting and searching in C Programming language. Sorting a set of items in a list is a task that occurs often in computer programming. 
+Often, a human can perform this task intuitively. However, a computer program has to follow a sequence of exact instructions to accomplish this. This sequence of instructions is called an algorithm. 
+A sorting algorithms is a method that can be used to place a list of unordered items into an ordered sequence. The sequence of ordering is determined by a key. Various sorting algorithms exist, and they differ in terms of their efficiency and performance. Some important and well-known sorting algorithms are the bubble sort, the selection sort, the insertion sort and the quick sort.
+Similarly in case of searching algorithm there are two main techniques Binary search and Linear search.
+A linear search is also known as a sequential search that simply scans each element at a time. Suppose we want to search an element in an array or list; we simply calculate its length and do not jump at any item.
+The main advantage of using binary search is that it does not scan each element in the list. Instead of scanning each element, it performs the searching to the half of the list. So, the binary search takes less time to search an element as compared to a linear search.
+The one pre-requisite of binary search is that an array should be in sorted order, whereas the linear search works on both sorted and unsorted array. The binary search algorithm is based on the divide and conquer technique, which means that it will divide the array recursively.
 
 ### Benefits
 It is been used by users who wants their numbers to be sorted or searched among many numbers.
