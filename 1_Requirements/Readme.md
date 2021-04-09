@@ -23,7 +23,7 @@ It is been used by users who wants their numbers to be sorted or searched among 
 ### Certain assumptions:
 * Our system will interact with users
     
-![Description](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/system.png)
+![Description](https://github.com/Aishwarya-260180/LTTS_Mini_Project/blob/main/1_Requirements/system.png)
 ### Explanation:
 * Sorting Searching Application have few inbuilt features like:
     * Taking input by user
@@ -36,7 +36,7 @@ It is been used by users who wants their numbers to be sorted or searched among 
 
 
 ## SWOT ANALYSIS
-![SWOT Analysis](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/swot.png)
+![SWOT Analysis](https://github.com/Aishwarya-260180/LTTS_Mini_Project/blob/main/1_Requirements/swot.png)
 
 # 4W&#39;s and 1&#39;H
 
