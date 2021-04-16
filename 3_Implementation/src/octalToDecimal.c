@@ -9,7 +9,7 @@ long octalToDecimal(int octalnum)
 
     while(octalnum != 0)
     {
-        decimalnum = decimalnum + (octalnum%10) * pow(8,temp);
+        decimalnum = decimalnum + (octalnum%10) * (temp*temp*temp*temp*temp*temp*temp*temp);
         temp++;
         octalnum = octalnum / 10;
     }
