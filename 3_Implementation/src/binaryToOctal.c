@@ -12,7 +12,7 @@ int binaryToOctal(long binarynum)
      */
     while(binarynum != 0)
     {
-        decimalnum = decimalnum + (binarynum%10) * pow(2,i);
+        decimalnum = decimalnum + (binarynum%10) * (i*i);
         i++;
         binarynum = binarynum / 10;
     }
