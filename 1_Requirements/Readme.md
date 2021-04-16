@@ -1,20 +1,18 @@
 # Requirements
 ## Introduction
- * This project includes various methods of searching and sorting the numbers given by users. This projects helps me to play with number and understand the logic how can numbers be stored and accessed back to perform operations.
+ * This project includes various methods of converting  the numbers given by users. This projects helps me to play with number and understand the logic how can numbers be stored and accessed back to perform operations.
  * This topic was chosen because it gives me an opportunity to implement efficient data structures and provides me flexibilty to understand multiple C programming concepts.
 
 ## Research
-### Searching and Sorting System Features and Benefits
-A searching and sorting systems main aim is, to provide users with different techniques of sorting and searching in C Programming language. Sorting a set of items in a list is a task that occurs often in computer programming. 
+### Converting the numbers Features and Benefits
+A number system conversion mini projects main aim is, to provide users with different type possible conversions  in C Programming language. Converting numbers from one form to another form is a task that occurs often in computer programming. 
 Often, a human can perform this task intuitively. However, a computer program has to follow a sequence of exact instructions to accomplish this. This sequence of instructions is called an algorithm. 
-A sorting algorithms is a method that can be used to place a list of unordered items into an ordered sequence. The sequence of ordering is determined by a key. Various sorting algorithms exist, and they differ in terms of their efficiency and performance. Some important and well-known sorting algorithms are the bubble sort, the selection sort, the insertion sort and the quick sort.
-Similarly in case of searching algorithm there are two main techniques Binary search and Linear search.
-A linear search is also known as a sequential search that simply scans each element at a time. Suppose we want to search an element in an array or list; we simply calculate its length and do not jump at any item.
-The main advantage of using binary search is that it does not scan each element in the list. Instead of scanning each element, it performs the searching to the half of the list. So, the binary search takes less time to search an element as compared to a linear search.
-The one pre-requisite of binary search is that an array should be in sorted order, whereas the linear search works on both sorted and unsorted array. The binary search algorithm is based on the divide and conquer technique, which means that it will divide the array recursively.
+A number system conversion is a method that can be used to convert numbers from one form to other form. 
+There are various methods like converting Binary number to Decimal number, Decimal to binary, Decimal to Octal, Octal to Decimal, Binary to Octal and Octal to Binary.
+
 
 ### Benefits
-It is been used by users who wants their numbers to be sorted or searched among many numbers.
+It is been used by users who wants their numbers to be converted into other format.
 
 
 
@@ -29,12 +27,11 @@ It is been used by users who wants their numbers to be sorted or searched among 
     
 ![Description](https://github.com/Aishwarya-260180/LTTS_Mini_Project/blob/main/1_Requirements/system.png)
 ### Explanation:
-* Sorting Searching Application have few inbuilt features like:
+* A number system conversion have few inbuilt features like:
     * Taking input by user
-    * Choose among search or sort option
-    * Choose among multiple search techniques
-    * Choose among multiple sort techniques
+    * Choose among various conversion methods
     * Provide output to user
+	* Provide exit provision for user
     
 
 
@@ -45,42 +42,37 @@ It is been used by users who wants their numbers to be sorted or searched among 
 # 4W&#39;s and 1&#39;H
 
 ## Who:
-* Small size users who wants to sort or search data with different techniques available in C Programming Language.
+* Small size users who wants convert their numbers from one form to another form available in C Programming Language.
 
 ## What:
-* Many users are not able to afford high systems and hence still depend on manual sorting and searching systems.
+* Many users are not able to afford high systems and hence still depend on number converting systems. Which takes lot of time to perform operations manually.
 
 ## When:
-* This can be used whenever any searching or sorting is needed.
+* This can be used whenever any conversion of number is needed.
 
 ## Where:
 * This problem is expected to surface in all needed situations.
 
 ## How:
-* This problem may reduce the time taken to sort and search and helps in better understanding of different Sorting and Searching techniques available in C Programming Language.
+* This problem may reduce the time taken to convert numbers from one format to another format and helps in better understanding of different formats of number systems available in C Programming Language.
 
 # Detail requirements
 ## High Level Requirements: 
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
-| HR01 | User shall be able to enter size of array | Techincal | TBD-S1 | 
-| HR02 | User shall be able to enter numbers  | Techincal | TBD-S1 |
-| HR03 | User shall be able to choose among search or sort | Techincal | TBD-S1 |
-| HR04 | User shall be able to choose among different searching techniques | Techincal | TBD-S1 |
-| HR05 | User shall be able to choose among different sorting techniques | TBD-S1 |
-| HR06 | User shall be able to re-enter numbers | Techincal | TBD-S1 |
-| HR07 | User shall be able to exit | Techincal | TBD-S1 |
-| HR08 | Data should sorted or searched for element accurately | Scenario | FUTURE |
+| HR01 | User shall be able to choose among different number systems available  | Techincal | TBD-S1 |
+| HR02 | User shall be able to enter the number | Techincal | TBD-S1 |
+| HR03 | User shall be able to re-enter numbers | Techincal | TBD-S1 |
+| HR04 | User shall be able to exit | Techincal | TBD-S1 |
+| HR05 | Data should converted into another format accurately | Scenario | FUTURE |
 ##  Low level Requirements:
  
 | ID | Description | HLR ID | Status (Implemented/Future) |
 | ------ | --------- | ------ | ----- |
-| LR01 | User shall be able to enter the size of array i.e, user should provide number of elements that he/she wants to search or sort. This acts as size of array here array is the data structure used to store the numbers which are used to search or sort based on user input. | HR01 | TBD-S1 |
-| LR02 | User shall be able to enter the numbers as input, here we use the previously entered input i.e, size of array as barier to store that many numbers in the array. Numbers entered should not exceed or recede the size of array. | HR02 | TBD-S1 |
-| LR03 | As the next step user is required to choose between sort or search based on his requirements, If he chooses sort various sorting techniques will be displayed and if he chooses search various searching techniques will be displayed in which he needs to choose further. | HR03 | TBD-S1 |
-| LR04 | If user chooses search in above scenario he will be provided with various searching techniques like linear search, binary search as output. He is needed to choose technique which he wants to apply for searching among the numbers he entered previously. | HR04 | TBD-S1 |
-| LR05 | If user chooses sort in above scenario he will be provided with various sorting techniques like selection sort, merge sort, bubble sort, heap sort,quick sort, insertion sort as output. He is needed to choose technique which he wants to apply for sorting among the numbers he entered previously | HR05 | TBD-S1 |
-| LR06 | If user wish to re-enter the numbers that he/she is using for searching and sorting then he/she should be provided with option re-enter to change the numbers. | HR06 | TBD-S1 |
-| LR07 | User can exit the system if he/she doesnt wishes to continue with any activity of searching or sorting of the system. User should be provided with the option to exit system with Thank you message. | HR07 | TBD-S1 |
-| LR08 | All the operations of searching or sorting using different techniques should yeild at accurate results. | HR08 | TBD-S1 |
+| LR01 | User shall be able to choose among different number format likes Binary number to Decimal number, Decimal to binary, Decimal to Octal, Octal to Decimal, Binary to Octal and Octal to Binary. | HR01 | TBD-S1 |
+| LR02 | User shall be able to enter the numbers as input, here we use the previously entered input i.e, type of conversion as barier to take input from user with that particular format they choosed. Numbers entered should not be in the other format then choosen. | HR02 | TBD-S1 |
+| LR03 | If user wish to re-enter the numbers converting system he/she should be provided with main choices again. | HR03 | TBD-S1 |
+| LR04 |  User can exit the system if he/she doesnt wishes to continue with any activity of conversion of numbers of the system. User should be provided with the option to exit system with Thank you message. | HR04 | TBD-S1 |
+| LR05 | All the operations of converting number system should yeild at accurate results. | HR05 | TBD-S1 |
+
 
