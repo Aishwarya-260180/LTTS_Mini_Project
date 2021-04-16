@@ -17,6 +17,7 @@ int binaryToOctal(long binarynum)
         binarynum = binarynum / 10;
     }
 
+    
     //i is re-initialized
     i = 1;
 
