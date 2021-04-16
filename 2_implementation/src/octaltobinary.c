@@ -10,7 +10,8 @@ long long binary = 0;
 
 while(octal != 0)
 {
-decimal += (octal%10) * pow(8,i);
+//decimal += (octal%10) * pow(8,i);
+  decimal += (octal%10) * (i*i*i*i*i*i*i*i);
 ++i;
 octal/=10;
 }
