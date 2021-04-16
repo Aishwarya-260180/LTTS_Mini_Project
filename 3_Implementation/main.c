@@ -53,11 +53,11 @@ int main()
                 printf("Enter a binary number: ");
                 scanf("%ld", &binarynum2);
                 bo=binaryToOctal(binarynum2);
-                printf("Equivalent octal value: %d\n",bo);break;
+                printf("Equivalent octal value: %ld\n",bo);break;
 
         case 6: 
                 printf("Enter an octal number: ");
-                scanf("%d", &octalnum2);
+                scanf("%ld", &octalnum2);
                 ob=octaltobinary(octalnum2);
                 printf("Equivalent binary number is: %ld\n", ob);break;
 
