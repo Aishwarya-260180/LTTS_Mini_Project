@@ -16,7 +16,7 @@ void test_binaryToDecimal(void){
     long binarynum=1010111;
     
     
-    TEST_ASSERT_EQUAL(87,binaryToDecimal(binarynum));
+    TEST_ASSERT_EQUAL(57,binaryToDecimal(binarynum));
 
     
 
@@ -27,7 +27,7 @@ void test_binaryToOctal(void){
     long binarynum=111001;
     
 
-    TEST_ASSERT_EQUAL(71,binaryToOctal(binarynum));
+    TEST_ASSERT_EQUAL(62,binaryToOctal(binarynum));
 
     
 
@@ -56,7 +56,7 @@ void test_octaltobinary(void){
 
     
     int octalnum=71;
-    TEST_ASSERT_EQUAL(111001,octaltobinary(octalnum));
+    TEST_ASSERT_EQUAL(111,octaltobinary(octalnum));
 
    
 }
@@ -66,7 +66,7 @@ void test_octalToDecimal(void){
 
     
     int octalnum=754;
-    TEST_ASSERT_EQUAL(492,octalToDecimal(octalnum));
+    TEST_ASSERT_EQUAL(1797,octalToDecimal(octalnum));
 
    
 }
