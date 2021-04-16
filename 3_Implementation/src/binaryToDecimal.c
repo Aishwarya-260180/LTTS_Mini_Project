@@ -10,7 +10,7 @@ int binaryToDecimal(long binarynum)
     {
         remainder = binarynum % 10;
         binarynum = binarynum / 10;
-        decimalnum = decimalnum + remainder*(temp*temp);
+        decimalnum = decimalnum + remainder * (temp*temp);
         temp++;
     }
     //Returning
