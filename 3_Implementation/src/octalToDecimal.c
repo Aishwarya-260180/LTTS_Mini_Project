@@ -13,6 +13,7 @@ long octalToDecimal(int octalnum)
         temp++;
         octalnum = octalnum / 10;
     }
+    
     //Returning
     return decimalnum;
 }
