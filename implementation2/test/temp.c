@@ -42,11 +42,44 @@ void test_decimalToBinary(void){
    
 }
 
+void test_decimalToOctal(void){
+
+    
+    int decimalnum=436;
+    TEST_ASSERT_EQUAL(664,decimalToOctal(decimalnum));
+
+   
+}
+
+
+void test_octaltobinary(void){
+
+    
+    int octalnum=71;
+    TEST_ASSERT_EQUAL(111001,octaltobinary(octalnum));
+
+   
+}
+
+
+void test_octalToDecimal(void){
+
+    
+    int octalnum=754;
+    TEST_ASSERT_EQUAL(492,octalToDecimal(octalnum));
+
+   
+}
+
+
 int main(void)
 {
 UNITY_BEGIN();
 RUN_TEST(test_binaryToDecimal); 
 RUN_TEST(test_binaryToOctal);
 RUN_TEST(test_decimalToBinary);
+RUN_TEST(test_decimalToOctal);
+RUN_TEST(test_octaltobinary);
+RUN_TEST(test_octalToDecimal);
 return UNITY_END();
 }
