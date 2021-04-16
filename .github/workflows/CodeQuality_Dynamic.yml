@@ -19,4 +19,4 @@ jobs:
     - name: make test
       run: make -C 2_implementation/ test
     - name: Valgrind
-      run: valgrind ./2_implementation/Build/Conversion.out
+      run: valgrind ./2_implementation/build/Conversion.out
