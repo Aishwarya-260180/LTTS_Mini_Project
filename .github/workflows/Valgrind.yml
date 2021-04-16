@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make test -C 2_Implementation/
-        valgrind ./LTTS_Mini_project/2_Implementation/build/Conversion.out
+        valgrind ./2_Implementation/build/Conversion.out
