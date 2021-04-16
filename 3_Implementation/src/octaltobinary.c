@@ -14,7 +14,7 @@ decimal += (octal%10) * (i*i*i*i*i*i*i*i);
 ++i;
 octal/=10;
 }
-
+//initializing
 i = 1;
 
 while (decimal != 0)
