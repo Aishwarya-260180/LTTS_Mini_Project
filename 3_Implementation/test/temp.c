@@ -66,7 +66,7 @@ void test_octalToDecimal(void){
 
     
     int octalnum=754;
-    TEST_ASSERT_EQUAL(1792,octalToDecimal(octalnum));
+    TEST_ASSERT_EQUAL(1797,octalToDecimal(octalnum));
 
    
 }
